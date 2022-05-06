@@ -1,0 +1,22 @@
+{
+  "name": "Movie-Finder",
+  "version": "1.0.0",
+  "description": "A simple movie finder built on Electron",
+  "repository": "https://github.com/wallacestev3s/movie-finder",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  ,
+    "debug": "ELECTRON_ENABLE_LOGGING=1 electron main.js"
+  },
+  "author": "Wallace, Willian",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.4.1",
+    "electron-builder": "^21.2.0",
+    "electron-packager": "^9.0.1"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
