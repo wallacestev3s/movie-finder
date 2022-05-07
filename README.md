@@ -16,7 +16,6 @@ The app is using the [OMDB API](http://www.omdbapi.com).
 ## Installation
 ``` bash
 # Clone this repository
-git clone https://github.com/mikekok/movie-finder
 # Go into the repository
 cd movie-finder
 # Install dependencies
